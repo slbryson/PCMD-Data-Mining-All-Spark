@@ -1,0 +1,21 @@
+# June 11, 2014 Author: 
+##--
+#hadoop fs -mkdir /SYN_PCMD_DATA
+hadoop fs -mkdir /REAL_PCMD_DATA
+
+
+echo "Copy PCMD data into Hadoop directory"
+hadoop fs -copyFromLocal /vagrant/DATA/Pruned_Real_PCMD_Data/*  /REAL_PCMD_DATA/.  
+
+hadoop fs -ls /REAL_PCMD_DATA
+
+echo " Start Spark Cluster"
+ ~/start-spark-cluster.sh
+
+
+echo "run using Real data: pyspark "
+echo "pyspark gen_cell.py  2014-05-12.12_00 2"
+
+#pyspark gen_cell.py  2014-05-12.12_00 2
+
+

@@ -1,0 +1,39 @@
+# June 11, 2014 Author: 
+Sidney L. Bryson, Ph.D.
+This code will generalize the PCMD parsing application developed by D. Supratime.  We will interatively add a general ability to extract any field(s) from PCMD and generate statistics.
+
+The base code is different from any other PCMD analyzer in that it performs the statisical analysis using PySpark and Hadoop in a Lambda architecture.  Hence we expect when ported to a highly parallel enviornment that it will out perform any of the current implementation with respect to processing.
+
+Files:
+generate_windowed_cell_statistics.py
+map_real_pcmd.py
+map_synthetic_pcmd.py
+
+config.ini
+
+Instructions (Original)
+To try the code, use the following steps:
+(Note step 1 and step 2 need only be performed once in a machine lifetime)
+1. hadoop fs -mkdir /SYN_PCMD_DATA
+   hadoop fs -mkdir /REAL_PCMD_DATA
+
+
+2. hadoop fs -copyFromLocal /vagrant/DATA/SYNTHETIC_PCMD_LIKE_DATA/*  /SYN_PCMD_DA
+TA/.
+   hadoop fs -copyFromLocal /vagrant/DATA/Pruned_Real_PCMD_Data/*  /REAL_PCMD_DATA/.
+
+
+
+3. ~/start-spark-cluster.sh
+
+
+4. To run using synthetic data: pyspark generate_cell_statistics.py  $SPARK_MASTER
+  0 "hdfs://localhost:8020/SYN_PCMD_DATA/pcmd_2014-03-07-15-31-40"
+
+5. To run using real data: pyspark gen_cell.py 2014-03-26.17_12 2
+note: This version of the code takes the date and windowed time as input
+
+6. View the output in file "output_cell_statistics.txt"
+
+7. For debugging the following awk script and oneline pcmd file
+gawk -f quick sample

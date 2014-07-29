@@ -1,0 +1,60 @@
+BEGIN {FS =";" }
+
+{
+print " How many secondary records = ", $173
+print " 251 DL RLC KBytes", $251
+# This is a check for data downlink?
+# initially 100 lets try 1
+if ($251 >1)
+{
+print "                          Version = ", $1
+print "CellId = ", $21
+print " +++++++++++++++++++++++++++ First Record?++++++++++++++++++++"
+print "Number of secondary records = ", $173
+print "PGWID 234", $234
+print "APN", $235
+print "Tertiary records = ", $265
+print " QCI = ", $239
+print "Default Bearer ID = ", $241
+print "Uplink (248) = ", $248, "249 =", $249, "ULRLC_SduTxKbytes = ", $250
+print "DLRLC Bytes 251 =", $251, "\n252 = ", $252, "\n253 =", $253
+print "266 =", $266
+i = 251
+while (i <= 254)
+	{ 
+	print "Field ",i, " Value =", $i
+	i++
+	} 
+}
+if ($173 ==2 && $287 >10) {
+print "                        Version = ", $1
+print "CellId = ", $21
+print " +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++"
+print "PGWID 270 =",  $270
+print "APN  271 =", $271
+print "Tertiary records = ", $301
+print " QCI = ", $275
+print " Setup Duration = ", $276
+print "Uplink (284) = ", $284, "285 =", $285, "286 = ", $286
+print "DLRLC Bytes 287 =", $287
+i = 284
+while (i <= 290)
+	{ 
+	print "Field ",i, " Value =", $i
+	i++
+	} 
+print " ++++++++++++++++++++++++++ End of Second Record+++++++++++++++"
+}
+if ($173 == 3) 
+{
+print " +++++++++++++++++++++++++++ Third Record?++++++++++++++++++++"
+print "APN  308 =", $308
+print "Third Bearer ID = ", $312
+i = 321
+while (i< 327)
+	{ 
+	print "Field ",i, " Value =", $i
+	i++
+	} 
+  }
+}
