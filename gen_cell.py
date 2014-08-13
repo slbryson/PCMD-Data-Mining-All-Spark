@@ -234,13 +234,13 @@ this function gets each field requested from the pcmd file
 def getFieldDictFromMeasRecord(pcmdString):
 	#assume this function is getting one record at a time
 	elementsOfPCMDString = pcmdString.split(";")
-	if len(elementsOfPCMDString) < 255:
+	if len(elementsOfPCMDString) < 253:
 		return -1, []
 	cellID = elementsOfPCMDString[FIELD_CELL_ID -1]
 	servingCell = cellID
 	secondaryFieldNum = elementsOfPCMDString[173-1]
-	if secondaryFieldNum >= 1 and len(elementsOfPCMDString) >= 299:
-		DLRLC_First = elementsOfPCMDString[251-1]
+	if secondaryFieldNum ==2:
+		DLRLC_First = map(float,elementsOfPCMDString[251-1])
 	else:
 		DLRLC_First = []
 	        return servingCell, []

@@ -1,8 +1,6 @@
 BEGIN {FS =";" }
 
 {
-print " How many secondary records = ", $173
-print " 251 DL RLC KBytes", $251
 # This is a check for data downlink?
 # initially 100 lets try 1
 if ($251 >1)
@@ -25,6 +23,7 @@ while (i <= 254)
 	print "Field ",i, " Value =", $i
 	i++
 	} 
+print " +++++++++++++++++end of first REcord+++++++++++++++++++++++"
 }
 if ($173 ==2 && $287 >10) {
 print "                        Version = ", $1

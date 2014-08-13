@@ -37,3 +37,8 @@ note: This version of the code takes the date and windowed time as input
 
 7. For debugging the following awk script and oneline pcmd file
 gawk -f quick sample
+
+8. Really to perform #4 for iPython you need to do the following:
+
+IPYTHON_OPTS="notebook --pylab inline" IPYTHON=1 pyspark
+#http://www.mccarroll.net/blog/pyspark2/index.html

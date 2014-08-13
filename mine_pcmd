@@ -2,5 +2,7 @@
 echo " run using Real data: pyspark "
 echo "pyspark gen_cell.py  2014-05-12.12_00 2"
 
-pyspark gen_cell.py  2014-05-12.12_00 2
+#pyspark gen_cell.py  2014-05-12.12_00 2
+echo "pyspark gen_cell.py  try an older file"
+pyspark gen_cell.py  2014-03-26.17_16 2
 

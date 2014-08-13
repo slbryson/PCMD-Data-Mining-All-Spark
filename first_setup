@@ -2,20 +2,36 @@
 ##--
 #hadoop fs -mkdir /SYN_PCMD_DATA
 hadoop fs -mkdir /REAL_PCMD_DATA
+hadoop fs -ls /REAL_PCMD_DATA
 
 
 echo "Copy PCMD data into Hadoop directory"
 hadoop fs -copyFromLocal /vagrant/DATA/Pruned_Real_PCMD_Data/*  /REAL_PCMD_DATA/.  
 
+echo "Check the director"
 hadoop fs -ls /REAL_PCMD_DATA
 
 echo " Start Spark Cluster"
  ~/start-spark-cluster.sh
 
 
-echo "run using Real data: pyspark "
-echo "pyspark gen_cell.py  2014-05-12.12_00 2"
+#Command to run this code
+#echo "run using Real data: pyspark "
+#echo "pyspark gen_cell.py  2014-05-12.12_00 2"
 
 #pyspark gen_cell.py  2014-05-12.12_00 2
-
+# When the hadoop namenode is corrupt, then sudo -u hdfs hdfs namenode -format.  Then 
+# for x in `cd /etc/init.d ; ls hadoop-hdfs-*` ; do sudo service $x start ; done
+# If the datanode or the namenode fails you will have to perform the following and delete ALL the hdfs data.
+#
+#     Stop the cluster
+#         Delete the data directory on the problematic DataNode: the directory is specified by dfs.data.dir in conf/hdfs-site.xml; if you followed this tutorial, the relevant directory is /app/hadoop/tmp/dfs/data
+#             Reformat the NameNode (NOTE: all HDFS data is lost during this process!)
+#                 Restart the cluster
+#
+#sudo ls /var/lib/hadoop-hdfs/cache/hdfs/dfs/data
+# sudo rm -R  /var/lib/hadoop-hdfs/cache/hdfs/dfs/data
+# sudo ls /var/lib/hadoop-hdfs/cache/hdfs/dfs/data
+# history |grep format
+# sudo -u hdfs hdfs namenode -format
 
