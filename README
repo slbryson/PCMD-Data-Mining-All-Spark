@@ -1,8 +1,17 @@
 # June 11, 2014 Author: 
 Sidney L. Bryson, Ph.D.
-This code will generalize the PCMD parsing application developed by D. Supratime.  We will interatively add a general ability to extract any field(s) from PCMD and generate statistics.
+This code will generalize the PCMD parsing application developed by D. Supratim.  We will interatively add a general ability to extract any field(s) from PCMD and generate statistics.
 
 The base code is different from any other PCMD analyzer in that it performs the statisical analysis using PySpark and Hadoop in a Lambda architecture.  Hence we expect when ported to a highly parallel enviornment that it will out perform any of the current implementation with respect to processing.
+8/12/2014  READ FIRST
+Current code in this folder still under development.
+1. Use awk (gawk) script "simple" to see a sample parsing (#7 below)
+2. Currently you can see a basic Spark parsing of PCMD in iPython. (#9 below)
+3. Once you have iPython running execute pyspark_test_rev3 to see output
+
+Next steps, now that I can select any field and value pair from PCMD, I will construct some basic code that generates statistics on a single chosen field collected.
+
+++++++++++++++++++++
 
 Files:
 generate_windowed_cell_statistics.py
@@ -40,5 +49,5 @@ gawk -f quick sample
 
 8. Really to perform #4 for iPython you need to do the following:
 
-IPYTHON_OPTS="notebook --pylab inline" IPYTHON=1 pyspark
+9. IPYTHON_OPTS="notebook --pylab inline" IPYTHON=1 pyspark
 #http://www.mccarroll.net/blog/pyspark2/index.html

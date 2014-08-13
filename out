@@ -1,3 +1,342 @@
- run using Real data: pyspark 
-pyspark gen_cell.py  2014-05-12.12_00 2
-pyspark gen_cell.py  try an older file
+                        Version =  6
+ Record number Field 8 76320870
+CellId =  311:480:1486703
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  4 285 = 164 286 =  3
+DLRLC Bytes 287 = 24
+Field  284  Value = 4
+Field  285  Value = 164
+Field  286  Value = 3
+Field  287  Value = 24
+Field  288  Value = 0
+Field  289  Value = 15
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320889
+CellId =  311:480:1366702
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  43 285 = 600 286 =  41
+DLRLC Bytes 287 = 298
+Field  284  Value = 43
+Field  285  Value = 600
+Field  286  Value = 41
+Field  287  Value = 298
+Field  288  Value = 0
+Field  289  Value = 390
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320846
+CellId =  311:480:1319f03
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 7 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 7
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 2
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320860
+CellId =  311:480:1540701
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:132:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  1 285 = 38 286 =  0
+DLRLC Bytes 287 = 1
+Field  284  Value = 1
+Field  285  Value = 38
+Field  286  Value = 0
+Field  287  Value = 1
+Field  288  Value = 0
+Field  289  Value = 9
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320869
+CellId =  311:480:13c8201
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  1 285 = 36 286 =  1
+DLRLC Bytes 287 = 3
+Field  284  Value = 1
+Field  285  Value = 36
+Field  286  Value = 1
+Field  287  Value = 3
+Field  288  Value = 0
+Field  289  Value = 8
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320866
+CellId =  311:480:1407902
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:194:200::
+APN  271 = ne01.vzwstatic.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  1 285 = 14 286 =  1
+DLRLC Bytes 287 = 0
+Field  284  Value = 1
+Field  285  Value = 14
+Field  286  Value = 1
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 5
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320867
+CellId =  311:480:131ac02
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  1 285 = 65 286 =  1
+DLRLC Bytes 287 = 5
+Field  284  Value = 1
+Field  285  Value = 65
+Field  286  Value = 1
+Field  287  Value = 5
+Field  288  Value = 0
+Field  289  Value = 12
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320880
+CellId =  311:480:167cf02
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:132:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  3 285 = 41 286 =  3
+DLRLC Bytes 287 = 4
+Field  284  Value = 3
+Field  285  Value = 41
+Field  286  Value = 3
+Field  287  Value = 4
+Field  288  Value = 0
+Field  289  Value = 19
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320880
+CellId =  311:480:1508603
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 4 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 4
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 1
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320880
+CellId =  311:480:154fe03
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:132:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  1 285 = 16 286 =  1
+DLRLC Bytes 287 = 0
+Field  284  Value = 1
+Field  285  Value = 16
+Field  286  Value = 1
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 0
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320880
+CellId =  311:480:158a503
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:132:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 8 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 8
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 1
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320880
+CellId =  311:480:5d13b20
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 6 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 6
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 0
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320803
+CellId =  311:480:1449101
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 0 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 0
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 0
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320880
+CellId =  311:480:14ff901
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:132:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 5 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 5
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 0
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320880
+CellId =  311:480:5ec0a0c
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:132:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 2 286 =  0
+DLRLC Bytes 287 = 1
+Field  284  Value = 0
+Field  285  Value = 2
+Field  286  Value = 0
+Field  287  Value = 1
+Field  288  Value = 0
+Field  289  Value = 10
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320899
+CellId =  311:480:5cc9a16
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 3 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 3
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 2
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320891
+CellId =  311:480:5e7fa16
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:137:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  3 285 = 74 286 =  3
+DLRLC Bytes 287 = 4
+Field  284  Value = 3
+Field  285  Value = 74
+Field  286  Value = 3
+Field  287  Value = 4
+Field  288  Value = 0
+Field  289  Value = 12
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++
+                        Version =  6
+ Record number Field 8 76320890
+CellId =  311:480:154cc03
+ +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++
+PGWID 270 = 2001:4888:8000:fff0:132:200::
+APN  271 = vzwinternet.mnc480.mcc311.gprs
+Tertiary records =  
+ QCI =  8
+ Setup Duration =  
+Uplink (284) =  0 285 = 5 286 =  0
+DLRLC Bytes 287 = 0
+Field  284  Value = 0
+Field  285  Value = 5
+Field  286  Value = 0
+Field  287  Value = 0
+Field  288  Value = 0
+Field  289  Value = 2
+Field  290  Value = 2
+ ++++++++++++++++++++++++++ End of Second Record+++++++++++++++

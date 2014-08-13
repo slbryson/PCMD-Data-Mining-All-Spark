@@ -20,13 +20,14 @@ print "266 =", $266
 i = 251
 while (i <= 254)
 	{ 
-	print "Field ",i, " Value =", $i
+	print "Field in First record",i, " Value =", $i
 	i++
 	} 
-print " +++++++++++++++++end of first REcord+++++++++++++++++++++++"
+print " +++++++++++++++++end of First REcord+++++++++++++++++++++++"
 }
-if ($173 ==2 && $287 >10) {
+if ($173 ==2 && $287 >=0) {
 print "                        Version = ", $1
+print " Record number Field 8", $8
 print "CellId = ", $21
 print " +++++++++++++++++++++++++++ Second Record?++++++++++++++++++++"
 print "PGWID 270 =",  $270
