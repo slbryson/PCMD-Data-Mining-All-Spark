@@ -51,3 +51,5 @@ gawk -f quick sample
 
 9. IPYTHON_OPTS="notebook --pylab inline" IPYTHON=1 pyspark
 #http://www.mccarroll.net/blog/pyspark2/index.html
+10. pyspark_test_rev3 is the most current iPython file
+
